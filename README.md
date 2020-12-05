@@ -7,6 +7,10 @@ Speak out the things you never could
 
 ![Current Homepage](https://github.com/iharshit009/SecretPeek/blob/main/images/FrontPage.png?raw=true)
 
+
+#### Currently the API is hosted [here](https://gsconfessions.herokuapp.com/)  
+#### It's a Django REST API which is just for dummy purposes
+ 
 ## Features
 - [ ] Deploy API
 - [x] Home Page to post and view confessions
