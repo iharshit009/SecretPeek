@@ -5,6 +5,8 @@ Anonymity is taken Seriously!
 It's a webpage to confess your feelings/secrets.   
 Speak out the things you never could
 
+![Current Homepage](https://github.com/[iharshit009]/[SecretPeek]/blob/[main]/images/FrontPage.png?raw=true)
+
 ## Features
 - [ ] Deploy API
 - [x] Home Page to post and view confessions
@@ -21,7 +23,7 @@ Speak out the things you never could
 - Python
 - Socket
 
-Note: To read out why we are using socket, please read [Polling and Streaming – Concept & Scenarios](https://www.geeksforgeeks.org/polling-and-streaming-concept-scenarios/)
+Note: To know why we are using socket, please read [Polling and Streaming – Concept & Scenarios](https://www.geeksforgeeks.org/polling-and-streaming-concept-scenarios/)
 
 ## Installation
 - Clone the repo
