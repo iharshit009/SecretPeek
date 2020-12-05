@@ -5,7 +5,7 @@ Anonymity is taken Seriously!
 It's a webpage to confess your feelings/secrets.   
 Speak out the things you never could
 
-![Current Homepage](https://github.com/[iharshit009]/[SecretPeek]/blob/[main]/images/FrontPage.png?raw=true)
+![Current Homepage](https://github.com/iharshit009/SecretPeek/blob/main/images/FrontPage.png?raw=true)
 
 ## Features
 - [ ] Deploy API
