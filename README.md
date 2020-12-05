@@ -10,7 +10,7 @@ Speak out the things you never could
 
 #### Currently the API is hosted [here](https://gsconfessions.herokuapp.com/)  
 #### It's a Django REST API which is just for dummy purposes
- 
+
 ## Features
 - [ ] Deploy API
 - [x] Home Page to post and view confessions
@@ -32,7 +32,7 @@ Note: To know why we are using socket, please read [Polling and Streaming – Co
 ## Installation
 - Clone the repo
 To run flask server
-- run `pip install Flask`
+- run `pip3 install Flask`
 - Run `python3 app.py`
 
 If you have any issue/difficulty regarding installation kindly ping me on slack.
