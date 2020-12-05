@@ -2,15 +2,14 @@
 
 ## Idea
 Anonymity is taken Seriously!  
-It's a webpage to confess your feelings/secrets.  
-Popular among your College/group circle.  
+It's a webpage to confess your feelings/secrets.   
 Speak out the things you never could
 
 ## Features
 - [ ] Deploy API
 - [x] Home Page to post and view confessions
 - [ ] Convert into Progressive Web App(PWA)
-- [ ] Add where user can create/post meme
+- [ ] Create a textbar to write
 - [ ] Read Count for confession
 - [ ] Like feature for Confession
 - [ ] Real-time sharing
@@ -51,6 +50,6 @@ All contributors / users are requested to join [Slack Workspace](https://join.sl
 
 For issues please raise a ticket in the issues tab in the [Secret Peek github repository](https://www.github.com/iharshit009/SecretPeek/issues).
 
-The idea/features for this project are limitless. So don't hesitate to share your ideas. Also, this project appreciated all skill levels. So, looking forward to your active participation in memegram.
+The idea/features for this project are limitless. So don't hesitate to share your ideas. Also, this project appreciated all skill levels. So, looking forward to your active participation in this project.
 
 Mentor for the project: [Harshit Jain](https://www.github.com/iharshit009/)
