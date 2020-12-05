@@ -52,4 +52,4 @@ For issues please raise a ticket in the issues tab in the [Secret Peek github re
 
 The idea/features for this project are limitless. So don't hesitate to share your ideas. Also, this project appreciated all skill levels. So, looking forward to your active participation in this project.
 
-Mentor for the project: [Harshit Jain](https://www.github.com/iharshit009/)
+Mentor for the project: [Pratya Chugh](https://www.github.com/pratya_09/) and [Harshit Jain](https://www.github.com/iharshit009/)
