@@ -1,7 +1,7 @@
 # SecretPeek
 
 ## Idea
-Anonymity is taken Seriously!  
+Anonymity is taken Seriously !
 It's a webpage to confess your feelings/secrets.   
 Speak out the things you never could
 
