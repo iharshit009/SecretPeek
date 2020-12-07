@@ -31,5 +31,11 @@ request.onload = function () {
     app.appendChild(errorMessage)
   }
 }
+var timestamp = Date.now();
+console.log(timestamp);
+    
+// Converting it back to human-readable date and time
+var d = new Date(timestamp);
+console.log(d);
 
 request.send()
