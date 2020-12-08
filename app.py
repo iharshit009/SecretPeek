@@ -5,7 +5,8 @@ import os
 basedir = os.path.abspath(os.path.dirname(__file__))
 
 app = Flask(__name__)
-app.config['SQLALCHEMY_DATABASE_URI'] =  "sqlite:///" + os.path.join(basedir, 'DB.db')
+app.config['SQLALCHEMY_DATABASE_URI'] = "sqlite:///" + \
+    os.path.join(basedir, 'DB.db')
 app.config['SQLALCHEMY_ DATABASE_URI'] = False
 db = SQLAlchemy(app)
 
@@ -37,4 +38,3 @@ def post_confession():
 if __name__ == '__main__':
     db.create_all()
     app.run()
-

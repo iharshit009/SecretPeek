@@ -4,11 +4,11 @@ from app import app
 
 POST_URL = 'http://127.0.0.1:5000/api/post'
 
+
 class PostConfessionTest(unittest.TestCase):
 
     def setUp(self):
         self.app = app.test_client()
-        
 
     def test_successfull_confession(self):
         payload = json.dumps({
