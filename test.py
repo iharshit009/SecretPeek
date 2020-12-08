@@ -8,6 +8,7 @@ class PostConfessionTest(unittest.TestCase):
 
     def setUp(self):
         self.app = app.test_client()
+        
 
     def test_successfull_confession(self):
         payload = json.dumps({
