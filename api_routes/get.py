@@ -10,4 +10,3 @@ def get_confession():
         'title': confession.message
     }, messages))
     return jsonify(messages_tuple)
-
