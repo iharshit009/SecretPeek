@@ -22,6 +22,16 @@ class Confessions(db.Model):
     message = db.Column(db.String(256))
 
 
+@app.route('/api/get', methods=['GET'])
+def get_confession():
+    messages = Confessions.query.all()
+    messages_tuple = tuple(map(lambda confession: {
+        'name': confession.name,
+        'title': confession.message
+    }, messages))
+    return jsonify(messages_tuple)
+
+
 @app.route('/api/post', methods=['POST'])
 def post_confession():
     name = request.json.get('name')
@@ -33,8 +43,6 @@ def post_confession():
     db.session.commit()
     return jsonify({"status": "Confession added successfully!"}), 201
 
-
-import api_routes.get
 
 if __name__ == '__main__':
     db.create_all()
