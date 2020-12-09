@@ -10,6 +10,7 @@ app.config['SQLALCHEMY_DATABASE_URI'] = "sqlite:///" + \
 app.config['SQLALCHEMY_ DATABASE_URI'] = False
 db = SQLAlchemy(app)
 
+
 class Confessions(db.Model):
     """
     Takes two parameters:
