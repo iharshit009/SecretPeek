@@ -10,7 +10,6 @@ app.config['SQLALCHEMY_DATABASE_URI'] = "sqlite:///" + \
 app.config['SQLALCHEMY_ DATABASE_URI'] = False
 db = SQLAlchemy(app)
 
-
 class Confessions(db.Model):
     """
     Takes two parameters:
@@ -21,6 +20,16 @@ class Confessions(db.Model):
     id = db.Column(db.Integer, primary_key=True)
     name = db.Column(db.String(32), index=True)
     message = db.Column(db.String(256))
+
+
+@app.route('/api/get', methods=['GET'])
+def get_confession():
+    messages = Confessions.query.all()
+    messages_tuple = tuple(map(lambda confession: {
+        'name': confession.name,
+        'title': confession.message
+    }, messages))
+    return jsonify(messages_tuple)
 
 
 @app.route('/api/post', methods=['POST'])
