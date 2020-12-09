@@ -21,6 +21,7 @@ class Confessions(db.Model):
     name = db.Column(db.String(32), index=True)
     message = db.Column(db.String(256))
 
+
 @app.route('/api/post', methods=['POST'])
 def post_confession():
     name = request.json.get('name')
@@ -31,6 +32,7 @@ def post_confession():
     db.session.add(confess)
     db.session.commit()
     return jsonify({"status": "Confession added successfully!"}), 201
+
 
 import api_routes.get
 
