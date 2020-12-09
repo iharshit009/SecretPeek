@@ -78,3 +78,45 @@ p {
 .card:nth-child(5n) h1 {
     background-image: linear-gradient(120deg, #ffc3a0 0%, #ffafbd 100%);
 }
+input{
+  text-align: center;
+  width: 70%;
+  margin-top:  -30px;
+  margin-bottom: 20px;
+  outline: none;
+  padding: 5px;
+  border: none;
+}
+.inputarea{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  width: 100%;
+}
+textarea{
+  padding: 2%;
+  outline: none;
+  display: block;
+  width:98%;
+  border: none;
+}
+.inputarea h1{
+  border-radius: 20px;
+  background-image: linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%);
+}
+button{
+  padding: .5% 2%;
+  border-radius: 5px;
+  outline: none;
+  background-color: black;
+  color:white;
+}
+button:hover{
+  background: linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%);
+  color: black;
+}
+}
+fieldset{
+  width: 90%;
+}
