@@ -10,7 +10,6 @@ app.config['SQLALCHEMY_DATABASE_URI'] = "sqlite:///" + \
 app.config['SQLALCHEMY_ DATABASE_URI'] = False
 db = SQLAlchemy(app)
 
-
 class Confessions(db.Model):
     """
     Takes two parameters:
@@ -21,7 +20,6 @@ class Confessions(db.Model):
     id = db.Column(db.Integer, primary_key=True)
     name = db.Column(db.String(32), index=True)
     message = db.Column(db.String(256))
-
 
 @app.route('/api/post', methods=['POST'])
 def post_confession():
@@ -34,6 +32,7 @@ def post_confession():
     db.session.commit()
     return jsonify({"status": "Confession added successfully!"}), 201
 
+import api_routes.get
 
 if __name__ == '__main__':
     db.create_all()
