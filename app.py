@@ -30,7 +30,7 @@ def get_confession():
         'name': confession.name,
         'title': confession.message
     }, messages))
-    return jsonify(messages_tuple)
+    return jsonify(messages_tuple), 200
 
 
 @app.route('/api/post', methods=['POST'])
