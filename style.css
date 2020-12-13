@@ -48,6 +48,7 @@ p {
     border-radius: 12px;
     overflow: hidden;
     transition: all 0.2s linear;
+    position: relative;
 }
 
 .card:hover {
