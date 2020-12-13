@@ -21,9 +21,15 @@ request.onload = function () {
 
       const p = document.createElement('p')
       p.textContent = movie.title
+      
+      const span = document.createElement('i')
+      span.setAttribute('class','fa fa-eye')
+      span.textContent=(' 111')
+      
       container.appendChild(card)
       card.appendChild(h1)
       card.appendChild(p)
+      card.appendChild(span)
     })
   } else {
     const errorMessage = document.createElement('marquee')
