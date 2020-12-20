@@ -25,11 +25,17 @@ request.onload = function () {
       const span = document.createElement('i')
       span.setAttribute('class','fa fa-eye')
       span.textContent=(' 111')
+      var t = document.createElement('j')
+      var timestamp = Date.now();
+      var d = new Date(timestamp);
+      t.textContent=(d)
       
       container.appendChild(card)
       card.appendChild(h1)
       card.appendChild(p)
       card.appendChild(span)
+      card.appendChild(t)
+      
     })
   } else {
     const errorMessage = document.createElement('marquee')
