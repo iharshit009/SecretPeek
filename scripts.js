@@ -22,6 +22,9 @@ request.onload = function () {
       const p = document.createElement('p')
       p.textContent = movie.title
       
+      const span = document.createElement('i')
+      span.setAttribute('class','fa fa-eye')
+      span.textContent=(' 111')
       var t = document.createElement('j')
       var timestamp = Date.now();
       var d = new Date(timestamp);
@@ -30,6 +33,7 @@ request.onload = function () {
       container.appendChild(card)
       card.appendChild(h1)
       card.appendChild(p)
+      card.appendChild(span)
       card.appendChild(t)
       
     })

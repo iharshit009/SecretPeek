@@ -48,6 +48,7 @@ p {
     border-radius: 12px;
     overflow: hidden;
     transition: all 0.2s linear;
+    position: relative;
 }
 
 .card:hover {
@@ -116,7 +117,15 @@ button:hover{
   background: linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%);
   color: black;
 }
-}
+
 fieldset{
   width: 90%;
+}
+
+.fa, .fas {
+    font-weight: 900;
+    bottom: 2px;
+    right: 1vw;
+    position: absolute;
+    color: #8f8e8e;
 }
