@@ -21,9 +21,17 @@ request.onload = function () {
 
       const p = document.createElement('p')
       p.textContent = movie.title
+      
+      var t = document.createElement('j')
+      var timestamp = Date.now();
+      var d = new Date(timestamp);
+      t.textContent=(d)
+      
       container.appendChild(card)
       card.appendChild(h1)
       card.appendChild(p)
+      card.appendChild(t)
+      
     })
   } else {
     const errorMessage = document.createElement('marquee')
