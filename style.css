@@ -9,6 +9,7 @@ html {
     line-height: 1.6;
     color: #666;
     background: #f6f6f6;
+    user-select: none;
 }
 
 #root {
@@ -50,10 +51,18 @@ p {
     transition: all 0.2s linear;
     position: relative;
 }
+.card-buttons
+{
+    display: flex;
+    justify-content: space-between;
+}
 
 .card:hover {
     box-shadow: 2px 8px 45px rgba(0, 0, 0, 0.15);
     transform: translate3D(0, -2px, 0);
+}
+.date{
+    margin: 10px;
 }
 
 @media screen and (min-width: 600px) {
@@ -128,4 +137,15 @@ fieldset{
     right: 1vw;
     position: absolute;
     color: #8f8e8e;
+}
+
+.icon{
+    margin: 5px;
+    position: unset;
+}
+.heart-icon{
+    font-size: 20px;
+}
+.liked{
+    color: #fb3958;
 }
